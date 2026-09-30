@@ -1,0 +1,4 @@
+scenario,incidents,optimal_total_min,optimal_avg_min,greedy_total_min,greedy_gap,actual_total_min,actual_avg_min,actual_unmatched,sa_trials,sa_iterations,sa_pct_optimal,sa_mean_gap,sa_median_gap,sa_worst_gap,sa_mean_best_iteration,sa_mean_runtime_ms
+florence_peak,17,111.42,6.55,113.35,0.0174,107.53,6.33,0,100,1000,3.0,0.0170,0.0141,0.0553,871.1,1.71
+helene_peak,15,99.38,6.63,101.75,0.0238,NA,NA,15,100,1000,4.0,0.0217,0.0179,0.0738,844.9,2.14
+typical_weekday,3,17.85,5.95,17.85,0.0000,19.98,6.66,0,100,1000,85.0,0.0109,0.0000,0.1335,539.3,2.55

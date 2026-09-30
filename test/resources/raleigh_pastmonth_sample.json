@@ -1,0 +1,11 @@
+{
+  "objectIdFieldName": "OBJECTID",
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": {"wkid": 4326, "latestWkid": 4326},
+  "exceededTransferLimit": true,
+  "features": [
+    {"attributes": {"incident_number": "26-037340", "dispatch_date_time": 1787717693000, "arrive_date_time": 1787717939000, "station_name": "Station 16", "incident_group_name": "No Emergency", "incident_type_name": "Intentional False Alarm"}, "geometry": {"x": -78.67454619999998, "y": 35.840457600000036}},
+    {"attributes": {"incident_number": "26-037341", "dispatch_date_time": 1787720174000, "arrive_date_time": 1787720749000, "station_name": "Station 22", "incident_group_name": "Public Service", "incident_type_name": "CO Alarm"}, "geometry": {"x": -78.56746849999998, "y": 35.92117130000007}},
+    {"attributes": {"incident_number": "26-037345", "dispatch_date_time": 1787723842000, "arrive_date_time": null, "station_name": "Station 03", "incident_group_name": "No Emergency", "incident_type_name": "No Incident Found Upon Arrival / Location Error"}, "geometry": {"x": -78.61276499999997, "y": 35.75768000000002}}
+  ]
+}

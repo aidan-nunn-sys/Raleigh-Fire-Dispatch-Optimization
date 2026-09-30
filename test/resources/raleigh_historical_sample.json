@@ -1,0 +1,11 @@
+{
+  "objectIdFieldName": "OBJECTID",
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": {"wkid": 4326, "latestWkid": 4326},
+  "features": [
+    {"attributes": {"incident_number": "18-0030226", "dispatch_date_time": 1536963057000, "arrive_date_time": 1536963309000, "station": 9, "incident_type_description": "Alarm system activation no fire - unintentional  ", "incident_group_name": null, "incident_type_name": null}, "geometry": {"x": -78.64537839978355, "y": 35.82825756486932}},
+    {"attributes": {"incident_number": "18-0030227", "dispatch_date_time": 1536963411000, "arrive_date_time": 1536963653000, "station": 17, "incident_type_description": "Smoke or odor removal                             ", "incident_group_name": null, "incident_type_name": null}, "geometry": {"x": -78.71527752710092, "y": 35.85695735655293}},
+    {"attributes": {"incident_number": "24-042814", "dispatch_date_time": 1727438425000, "arrive_date_time": 1727438609000, "station": null, "incident_type_description": "Alarm system activation, no fire", "incident_group_name": null, "incident_type_name": null}, "geometry": {"x": -78.71081319999999, "y": 35.85372140000007}},
+    {"attributes": {"incident_number": "TEST-NO-GEOMETRY", "dispatch_date_time": 1536963500000, "arrive_date_time": null, "station": 5, "incident_type_description": "Public service", "incident_group_name": null, "incident_type_name": null}}
+  ]
+}

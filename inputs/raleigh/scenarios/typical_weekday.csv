@@ -1,0 +1,7 @@
+# name=Typical weekday
+# window=2019-03-12T17:00:00-04:00/2019-03-12T19:00:00-04:00
+# source=Fire_Incidents_Public fetched 2026-09-26
+incident_id,dispatch_iso,arrive_iso,group,lat,lon,actual_station
+19-0008282,2019-03-12T18:16:38-04:00,2019-03-12T18:22:28-04:00,Alarm,35.743,-78.652,S02
+19-0008283,2019-03-12T18:17:28-04:00,2019-03-12T18:20:40-04:00,Service/Other,35.853,-78.709,S17
+19-0008289,2019-03-12T18:57:45-04:00,2019-03-12T19:08:10-04:00,Hazardous,35.752,-78.557,S10
