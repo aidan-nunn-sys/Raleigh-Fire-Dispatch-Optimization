@@ -219,4 +219,4 @@ JUnit 4 (same style as `PS03_TestCase`), no network:
    `DispatchBenchmark`, and the tests.
 2. **UI:** `ui` package plus `config/configDispatch.txt`.
 3. **Live-ish:** `RaleighIncidentClient` fetch/cache/busiest windows plus UI wiring. This is cut first if time runs short.
-4. **Docs:** `README_DISPATCH.md`.
+4. **Docs:** `README.md`.
