@@ -3,7 +3,8 @@
 The PS03 simulated-annealing solver (`ConfigurationSolver`) is applied to a real
 linear assignment problem: sending Raleigh Fire Department stations to real incidents from
 City of Raleigh open data. It is compared against the exact optimum (Hungarian method), a
-greedy nearest-free-station rule, and the station Raleigh actually sent.
+greedy nearest-free-station rule, and the station Raleigh actually sent. If you would like to know more about
+the tehnical aspects, there is a design document in `docs/2026-09-25-raleigh-dispatch-design.md`.
 
 > This is a teaching model, not a dispatch tool. Minutes are straight-line estimates, incidents in a
 > window are treated as simultaneous, and real dispatch also weighs unit availability,
