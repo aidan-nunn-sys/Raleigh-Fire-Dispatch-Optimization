@@ -232,6 +232,12 @@ public class DispatchVisualizer extends JFrame implements ControlPanel.Listener 
 	}
 
 	public static void main(String[] args) {
+		// Java's XRender pipeline is very slow under XWayland (about 600 ms per repaint on the
+		// Asahi laptop), which held the animation near 2 iterations a second whatever the Delay
+		// slider said. The software pipeline repaints in a few ms. Must be set before AWT starts.
+		if (System.getProperty("sun.java2d.xrender") == null) {
+			System.setProperty("sun.java2d.xrender", "false");
+		}
 		final Properties config = ConfigurationLoader.loadConfiguration(CONFIG);
 		final List<Station> stations;
 		final TravelModel model;
